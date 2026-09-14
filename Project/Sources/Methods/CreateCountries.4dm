@@ -1,14 +1,8 @@
 //%attributes = {}
 If (Records in table:C83([Countries:1])=0)
-	C_TEXT:C284($RootPath_t)
-	C_TEXT:C284($XMLPath_t)
-	C_TEXT:C284($XMLRef_t)
-	C_LONGINT:C283($CountCountries_l)
-	C_LONGINT:C283($Loop_l)
-	C_TEXT:C284($Value_t)
-	C_TEXT:C284($Country_t)
-	C_TEXT:C284($Ref_t)
-	C_TEXT:C284($FlagPath_t)
+	var $RootPath_t; $XMLPath_t; $XMLRef_t : Text
+	var $CountCountries_l; $Loop_l : Integer
+	var $Value_t; $Country_t; $Ref_t; $FlagPath_t : Text
 	
 	$RootPath_t:=Get 4D folder:C485(Current resources folder:K5:16)+"Countries"+Folder separator:K24:12
 	$XMLPath_t:=$RootPath_t+"CountryFacts.xml"

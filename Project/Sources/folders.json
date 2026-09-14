@@ -16,8 +16,7 @@
 		"methods": [
 			"00_Start",
 			"CreateCountries",
-			"FindCountries",
-			"m_Quit"
+			"FindCountries"
 		]
 	},
 	"trash": {

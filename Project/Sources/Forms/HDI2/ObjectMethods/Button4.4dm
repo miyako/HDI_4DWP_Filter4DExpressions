@@ -1,4 +1,4 @@
-C_TEXT:C284($formula)
+var $formula : Text
 
 // Open Formula Editor
 $formula:=""

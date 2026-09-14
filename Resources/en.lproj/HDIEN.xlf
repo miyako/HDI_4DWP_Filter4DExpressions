@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI_SorryDesignMode" resname="HDI_SorryDesignMode">
+		<source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+		<target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Title1" resname="HDI_Title1">
+		<source>How Do I...</source>
+		<target>How Do I...</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Title2" resname="HDI_Title2">
+		<source>… use the filtering mechanism in 4D expressions in a 4D Write Pro document ?</source>
+		<target>… use the filtering mechanism in 4D expressions in a 4D Write Pro document ?</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_SorryVersion" resname="HDI_SorryVersion">
+		<source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+		<target>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_VersionLabel" resname="HDI_VersionLabel">
+		<source>4D v16 and above…</source>
+		<target>4D v16 and above…</target>
+	  </trans-unit>
+	  <trans-unit id="BtnDemo" resname="BtnDemo">
+		<source>Demo</source>
+		<target>Demo</target>
+	  </trans-unit>
+	  <trans-unit id="BtnClose" resname="BtnClose">
+		<source>Close</source>
+		<target>Close</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_LicenseRequired" resname="HDI_LicenseRequired">
+		<source>4D Write license is required for this demo</source>
+		<target>4D Write license is required for this demo</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

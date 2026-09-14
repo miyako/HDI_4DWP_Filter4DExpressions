@@ -1,7 +1,7 @@
-//%attributes = {}
-C_OBJECT:C1216(vInfos; vDoc)
-C_BOOLEAN:C305(bRef; bVal)
-C_TEXT:C284($path)
+//%attributes = {"invisible":true}
+var vInfos; vDoc : Object
+var bRef; bVal : Boolean
+var $path : Text
 ARRAY TEXT:C222(safeMeth; 0)
 
 
