@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="HDI_SorryDesignMode" resname="HDI_SorryDesignMode">
+		<source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+		<target>このバージョンではこのHDIをデザインモードで開かないでください。開くと、機能不足によりフォームやメソッドが壊れる可能性があります。</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Title1" resname="HDI_Title1">
+		<source>How Do I...</source>
+		<target>やり方ガイド...</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Title2" resname="HDI_Title2">
+		<source>… use the filtering mechanism in 4D expressions in a 4D Write Pro document ?</source>
+		<target>… 4D Write Proドキュメント内の4D式のフィルタリング機能を使うには？</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_SorryVersion" resname="HDI_SorryVersion">
+		<source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+		<target>申し訳ございません。この「How do I」(HDI)例はより新しいバージョンの4D（v16以降）で使用する必要があります。</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_VersionLabel" resname="HDI_VersionLabel">
+		<source>4D v16 and above…</source>
+		<target>4D v16以降…</target>
+	  </trans-unit>
+	  <trans-unit id="BtnDemo" resname="BtnDemo">
+		<source>Demo</source>
+		<target>デモ</target>
+	  </trans-unit>
+	  <trans-unit id="BtnClose" resname="BtnClose">
+		<source>Close</source>
+		<target>閉じる</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_LicenseRequired" resname="HDI_LicenseRequired">
+		<source>4D Write license is required for this demo</source>
+		<target>このデモには4D Writeのライセンスが必要です</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

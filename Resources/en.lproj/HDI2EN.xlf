@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI2_TabInfos" resname="HDI2_TabInfos">
+		<source>Infos</source>
+		<target>Infos</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+		<source>Demo</source>
+		<target>Demo</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnInsertCurrentDate" resname="HDI2_BtnInsertCurrentDate">
+		<source>Insert "Current date"</source>
+		<target>Insert "Current date"</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text1" resname="HDI2_Text1">
+		<source>Insert a 4D expression:</source>
+		<target>Insert a 4D expression:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnInsertAMethod" resname="HDI2_BtnInsertAMethod">
+		<source>Insert aMethod</source>
+		<target>Insert aMethod</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnInsertQuit4D" resname="HDI2_BtnInsertQuit4D">
+		<source>Insert "QUIT 4D"</source>
+		<target>Insert "QUIT 4D"</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioShowReference" resname="HDI2_RadioShowReference">
+		<source>Show reference</source>
+		<target>Show reference</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioShowValue" resname="HDI2_RadioShowValue">
+		<source>Show value</source>
+		<target>Show value</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+		<source>allowed 4D command</source>
+		<target>allowed 4D command</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text3" resname="HDI2_Text3">
+		<source>forbidden 4D command</source>
+		<target>forbidden 4D command</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text4" resname="HDI2_Text4">
+		<source>forbidden project method</source>
+		<target>forbidden project method</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text5" resname="HDI2_Text5">
+		<source>When expression is evaluated, the command is executed and the returned value is shown</source>
+		<target>When expression is evaluated, the command is executed and the returned value is shown</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text6" resname="HDI2_Text6">
+		<source>When expression is evaluated, the command is NOT executed and the value is ## Error # 48</source>
+		<target>When expression is evaluated, the command is NOT executed and the value is ## Error # 48</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text7" resname="HDI2_Text7">
+		<source>When expression is evaluated, the method is NOT executed and the value is ## Error #48</source>
+		<target>When expression is evaluated, the method is NOT executed and the value is ## Error #48</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text8" resname="HDI2_Text8">
+		<source>using Formula Editor</source>
+		<target>using Formula Editor</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnInsertExpression" resname="HDI2_BtnInsertExpression">
+		<source>Insert Expression</source>
+		<target>Insert Expression</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text9" resname="HDI2_Text9">
+		<source>Only allowed 4D commands and allowed project methods can be inserted</source>
+		<target>Only allowed 4D commands and allowed project methods can be inserted</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

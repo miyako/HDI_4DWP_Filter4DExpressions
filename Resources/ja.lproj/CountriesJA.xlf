@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/TableForms/1" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="HDI_Countries_Title" resname="HDI_Countries_Title">
+		<source>Countries</source>
+		<target>国</target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Anthem" resname="HDI_Countries_Anthem">
+		<source>Anthem : </source>
+		<target>国歌 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Area" resname="HDI_Countries_Area">
+		<source>Area : </source>
+		<target>面積 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_AreaPosition" resname="HDI_Countries_AreaPosition">
+		<source>AreaPosition : </source>
+		<target>面積順位 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_CallingCode" resname="HDI_Countries_CallingCode">
+		<source>CallingCode : </source>
+		<target>国番号 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Capital" resname="HDI_Countries_Capital">
+		<source>Capital : </source>
+		<target>首都 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Currency" resname="HDI_Countries_Currency">
+		<source>Currency : </source>
+		<target>通貨 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Flag" resname="HDI_Countries_Flag">
+		<source>Flag : </source>
+		<target>国旗 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_InhabitantPosition" resname="HDI_Countries_InhabitantPosition">
+		<source>InhabitantPosition : </source>
+		<target>人口順位 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Inhabitants" resname="HDI_Countries_Inhabitants">
+		<source>Inhabitants : </source>
+		<target>人口 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Language" resname="HDI_Countries_Language">
+		<source>Language : </source>
+		<target>言語 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_Name" resname="HDI_Countries_Name">
+		<source>Name : </source>
+		<target>名前 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_ShortName" resname="HDI_Countries_ShortName">
+		<source>ShortName : </source>
+		<target>略称 : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_TimeZone" resname="HDI_Countries_TimeZone">
+		<source>TimeZone : </source>
+		<target>タイムゾーン : </target>
+	  </trans-unit>
+	  <trans-unit id="HDI_Countries_TLD" resname="HDI_Countries_TLD">
+		<source>TLD : </source>
+		<target>TLD : </target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

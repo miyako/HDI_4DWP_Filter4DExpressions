@@ -1,0 +1,55 @@
+/* Cross-platform dark/light mode rules. */
+
+/* HDI splash: warning text (design-mode notice) */
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #CC7A4D;
+	}
+}
+
+/* HDI splash: license error text */
+@media (prefers-color-scheme: light) {
+	.hdi-error {
+		stroke: #EE0000;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-error {
+		stroke: #FF6B6B;
+	}
+}
+
+/* HDI2: rounded panel behind the radio buttons */
+@media (prefers-color-scheme: light) {
+	.hdi2-panel {
+		fill: #EAEAEA;
+		stroke: #FFFFFF;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi2-panel {
+		fill: #3A3A3A;
+		stroke: #2A2A2A;
+	}
+}
+
+/* HDI2: highlighted "forbidden" explanatory text */
+@media (prefers-color-scheme: light) {
+	.hdi2-highlight {
+		stroke: #008EFF;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi2-highlight {
+		stroke: #5CB8FF;
+	}
+}

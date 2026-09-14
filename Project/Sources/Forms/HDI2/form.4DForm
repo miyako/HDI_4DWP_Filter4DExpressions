@@ -44,8 +44,8 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Infos",
-						"Demo"
+						":xliff:HDI2_TabInfos",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -91,8 +91,7 @@
 					"left": 559,
 					"width": 253,
 					"height": 41,
-					"fill": "#EAEAEA",
-					"stroke": "#FFFFFF",
+					"class": "hdi2-panel",
 					"borderRadius": 10
 				},
 				"WParea": {
@@ -126,8 +125,8 @@
 					"top": 671,
 					"left": 256,
 					"width": 141,
-					"height": 27,
-					"text": "Insert \"Current date\"",
+					"class": "default",
+					"text": ":xliff:HDI2_BtnInsertCurrentDate",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
@@ -140,18 +139,19 @@
 					"left": 32,
 					"width": 275,
 					"height": 22,
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 18,
 					"fontWeight": "bold",
-					"text": "Insert a 4D expression:"
+					"text": ":xliff:HDI2_Text1"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 761,
 					"left": 256,
 					"width": 141,
-					"height": 27,
-					"text": "Insert aMethod",
+					"class": "default",
+					"text": ":xliff:HDI2_BtnInsertAMethod",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
@@ -163,8 +163,8 @@
 					"top": 716,
 					"left": 256,
 					"width": 141,
-					"height": 27,
-					"text": "Insert \"QUIT 4D\"",
+					"class": "default",
+					"text": ":xliff:HDI2_BtnInsertQuit4D",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
@@ -178,7 +178,7 @@
 					"width": 126,
 					"height": 34,
 					"dataSource": "bRef",
-					"text": "Show reference",
+					"text": ":xliff:HDI2_RadioShowReference",
 					"focusable": false,
 					"radioGroup": "radioShowReference",
 					"method": "ObjectMethods/radioRef.4dm",
@@ -193,7 +193,7 @@
 					"width": 126,
 					"height": 34,
 					"dataSource": "bVal",
-					"text": "Show value",
+					"text": ":xliff:HDI2_RadioShowValue",
 					"focusable": false,
 					"radioGroup": "radioShowReference",
 					"method": "ObjectMethods/radioVal.4dm",
@@ -207,10 +207,11 @@
 					"left": 62,
 					"width": 166,
 					"height": 33,
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "allowed 4D command"
+					"text": ":xliff:HDI2_Text2"
 				},
 				"Text3": {
 					"type": "text",
@@ -218,10 +219,11 @@
 					"left": 48,
 					"width": 180,
 					"height": 33,
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "forbidden 4D command"
+					"text": ":xliff:HDI2_Text3"
 				},
 				"Text4": {
 					"type": "text",
@@ -229,10 +231,11 @@
 					"left": 55,
 					"width": 173,
 					"height": 33,
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "forbidden project method"
+					"text": ":xliff:HDI2_Text4"
 				},
 				"Text5": {
 					"type": "text",
@@ -240,11 +243,11 @@
 					"left": 430,
 					"width": 349,
 					"height": 33,
-					"stroke": "#777777",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 13,
 					"fontStyle": "italic",
-					"text": "When expression is evaluated, the command is executed and the returned value is shown"
+					"text": ":xliff:HDI2_Text5"
 				},
 				"Text6": {
 					"type": "text",
@@ -252,12 +255,12 @@
 					"left": 430,
 					"width": 360,
 					"height": 33,
-					"stroke": "#008EFF",
+					"class": "hdi2-highlight",
 					"fontFamily": "System Font",
 					"fontSize": 13,
 					"fontWeight": "bold",
 					"fontStyle": "italic",
-					"text": "When expression is evaluated, the command is NOT executed and the value is ## Error # 48"
+					"text": ":xliff:HDI2_Text6"
 				},
 				"Text7": {
 					"type": "text",
@@ -265,12 +268,12 @@
 					"left": 430,
 					"width": 360,
 					"height": 33,
-					"stroke": "#008EFF",
+					"class": "hdi2-highlight",
 					"fontFamily": "System Font",
 					"fontSize": 13,
 					"fontWeight": "bold",
 					"fontStyle": "italic",
-					"text": "When expression is evaluated, the method is NOT executed and the value is ## Error #48"
+					"text": ":xliff:HDI2_Text7"
 				},
 				"Text8": {
 					"type": "text",
@@ -278,18 +281,19 @@
 					"left": 80,
 					"width": 148,
 					"height": 33,
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "using Formula Editor"
+					"text": ":xliff:HDI2_Text8"
 				},
 				"Button4": {
 					"type": "button",
 					"top": 806,
 					"left": 256,
 					"width": 141,
-					"height": 27,
-					"text": "Insert Expression",
+					"class": "default",
+					"text": ":xliff:HDI2_BtnInsertExpression",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
@@ -302,11 +306,11 @@
 					"left": 430,
 					"width": 360,
 					"height": 33,
-					"stroke": "#777777",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 13,
 					"fontStyle": "italic",
-					"text": "Only allowed 4D commands and allowed project methods can be inserted"
+					"text": ":xliff:HDI2_Text9"
 				}
 			}
 		}
