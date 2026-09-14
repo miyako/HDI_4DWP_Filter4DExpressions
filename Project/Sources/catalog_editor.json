@@ -1,0 +1,95 @@
+{
+	"tables": {
+		"(SAMPLES)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "332.3125",
+				"top": "38.4140625",
+				"width": "313.62109375",
+				"height": "166.33203125"
+			},
+			"displayable_fields_count": 5,
+			"fields": {
+				"SampleSort": {
+					"position": 2
+				},
+				"Title": {
+					"position": 3
+				},
+				"TextToProcess": {
+					"position": 4
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		},
+		"Countries": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "42",
+				"top": "13",
+				"width": "203",
+				"height": "367"
+			},
+			"displayable_fields_count": 15,
+			"fields": {
+				"ID": {
+					"position": 1
+				},
+				"Flag": {
+					"position": 15
+				},
+				"InhabitantPosition": {
+					"position": 14
+				},
+				"Inhabitants": {
+					"position": 13
+				},
+				"AreaPosition": {
+					"position": 12
+				},
+				"Area": {
+					"position": 11
+				},
+				"CallingCode": {
+					"position": 10
+				},
+				"TLD": {
+					"position": 9
+				},
+				"TimeZone": {
+					"position": 8
+				},
+				"Currency": {
+					"position": 7
+				},
+				"Anthem": {
+					"position": 6
+				},
+				"Language": {
+					"position": 5
+				},
+				"Capital": {
+					"position": 4
+				},
+				"Name": {
+					"position": 3
+				},
+				"ShortName": {
+					"position": 2
+				}
+			}
+		}
+	}
+}

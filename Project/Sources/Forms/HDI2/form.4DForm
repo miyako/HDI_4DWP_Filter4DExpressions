@@ -1,0 +1,327 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 15,
+					"left": 19,
+					"width": 804,
+					"height": 831,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Infos",
+						"Demo"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"WriteProArea": {
+					"type": "write",
+					"top": 57,
+					"left": 33,
+					"width": 775,
+					"height": 766,
+					"dataSource": "vInfos",
+					"enterable": false,
+					"focusable": false,
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					],
+					"zoom": 75
+				}
+			}
+		},
+		{
+			"objects": {
+				"Round Rectangle": {
+					"type": "rectangle",
+					"top": 41,
+					"left": 559,
+					"width": 253,
+					"height": 41,
+					"fill": "#EAEAEA",
+					"stroke": "#FFFFFF",
+					"borderRadius": 10
+				},
+				"WParea": {
+					"type": "write",
+					"top": 89,
+					"left": 34,
+					"width": 778,
+					"height": 543,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vDoc",
+					"focusable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 100,
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 671,
+					"left": 256,
+					"width": 141,
+					"height": 27,
+					"text": "Insert \"Current date\"",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 640,
+					"left": 32,
+					"width": 275,
+					"height": 22,
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "Insert a 4D expression:"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 761,
+					"left": 256,
+					"width": 141,
+					"height": 27,
+					"text": "Insert aMethod",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 716,
+					"left": 256,
+					"width": 141,
+					"height": 27,
+					"text": "Insert \"QUIT 4D\"",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"radioRef": {
+					"type": "radio",
+					"top": 44,
+					"left": 573,
+					"width": 126,
+					"height": 34,
+					"dataSource": "bRef",
+					"text": "Show reference",
+					"focusable": false,
+					"radioGroup": "radioShowReference",
+					"method": "ObjectMethods/radioRef.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"radioVal": {
+					"type": "radio",
+					"top": 44,
+					"left": 709,
+					"width": 126,
+					"height": 34,
+					"dataSource": "bVal",
+					"text": "Show value",
+					"focusable": false,
+					"radioGroup": "radioShowReference",
+					"method": "ObjectMethods/radioVal.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 677,
+					"left": 62,
+					"width": 166,
+					"height": 33,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "allowed 4D command"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 722,
+					"left": 48,
+					"width": 180,
+					"height": 33,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "forbidden 4D command"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 767,
+					"left": 55,
+					"width": 173,
+					"height": 33,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "forbidden project method"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 668,
+					"left": 430,
+					"width": 349,
+					"height": 33,
+					"stroke": "#777777",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontStyle": "italic",
+					"text": "When expression is evaluated, the command is executed and the returned value is shown"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 713,
+					"left": 430,
+					"width": 360,
+					"height": 33,
+					"stroke": "#008EFF",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "When expression is evaluated, the command is NOT executed and the value is ## Error # 48"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 758,
+					"left": 430,
+					"width": 360,
+					"height": 33,
+					"stroke": "#008EFF",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "When expression is evaluated, the method is NOT executed and the value is ## Error #48"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 813,
+					"left": 80,
+					"width": 148,
+					"height": 33,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "using Formula Editor"
+				},
+				"Button4": {
+					"type": "button",
+					"top": 806,
+					"left": 256,
+					"width": 141,
+					"height": 27,
+					"text": "Insert Expression",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 803,
+					"left": 430,
+					"width": 360,
+					"height": 33,
+					"stroke": "#777777",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontStyle": "italic",
+					"text": "Only allowed 4D commands and allowed project methods can be inserted"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"radioShowReference": [
+				"radioRef",
+				"radioVal"
+			]
+		}
+	},
+	"geometryStamp": 30,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

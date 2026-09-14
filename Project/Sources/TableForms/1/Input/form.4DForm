@@ -1,0 +1,745 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 600,
+	"windowMinHeight": 560,
+	"width": 600,
+	"height": 560,
+	"markerBody": 671,
+	"markerBreak": 671,
+	"markerFooter": 681,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text18": {
+					"type": "text",
+					"top": 10,
+					"left": 103,
+					"width": 356,
+					"height": 22,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 18,
+					"text": "Countries"
+				},
+				"Name": {
+					"type": "input",
+					"top": 45,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]Name:2",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ShortName": {
+					"type": "input",
+					"top": 70,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]ShortName:1",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AreaPosition": {
+					"type": "input",
+					"top": 95,
+					"left": 233,
+					"width": 48,
+					"height": 15,
+					"dataSource": "[Countries:1]AreaPosition:11",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CallingCode": {
+					"type": "input",
+					"top": 120,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]CallingCode:9",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Capital": {
+					"type": "input",
+					"top": 145,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]Capital:3",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Currency": {
+					"type": "input",
+					"top": 170,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]Currency:6",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Flag": {
+					"type": "input",
+					"top": 195,
+					"left": 233,
+					"width": 341,
+					"height": 170,
+					"dataSource": "[Countries:1]Flag:14",
+					"dataSourceTypeHint": "picture",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "custom",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"InhabitantPosition": {
+					"type": "input",
+					"top": 379,
+					"left": 233,
+					"width": 48,
+					"height": 15,
+					"dataSource": "[Countries:1]InhabitantPosition:13",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Inhabitants": {
+					"type": "input",
+					"top": 404,
+					"left": 233,
+					"width": 48,
+					"height": 15,
+					"dataSource": "[Countries:1]Inhabitants:12",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Language": {
+					"type": "input",
+					"top": 429,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]Language:4",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Anthem": {
+					"type": "input",
+					"top": 455,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]Anthem:5",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Area": {
+					"type": "input",
+					"top": 480,
+					"left": 233,
+					"width": 48,
+					"height": 15,
+					"dataSource": "[Countries:1]Area:10",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TimeZone": {
+					"type": "input",
+					"top": 504,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]TimeZone:7",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TLD": {
+					"type": "input",
+					"top": 529,
+					"left": 233,
+					"width": 340,
+					"height": 15,
+					"dataSource": "[Countries:1]TLD:8",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line19": {
+					"type": "line",
+					"top": 0,
+					"left": 88,
+					"height": 560,
+					"sizingY": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 65,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 120,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 175,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 230,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 285,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 340,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"top": 455,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Anthem : "
+				},
+				"Text21": {
+					"type": "text",
+					"top": 480,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Area : "
+				},
+				"Text22": {
+					"type": "text",
+					"top": 95,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "AreaPosition : "
+				},
+				"Text23": {
+					"type": "text",
+					"top": 120,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "CallingCode : "
+				},
+				"Text24": {
+					"type": "text",
+					"top": 145,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Capital : "
+				},
+				"Text25": {
+					"type": "text",
+					"top": 170,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Currency : "
+				},
+				"Text26": {
+					"type": "text",
+					"top": 195,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Flag : "
+				},
+				"Text28": {
+					"type": "text",
+					"top": 379,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "InhabitantPosition : "
+				},
+				"Text29": {
+					"type": "text",
+					"top": 404,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Inhabitants : "
+				},
+				"Text30": {
+					"type": "text",
+					"top": 429,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Language : "
+				},
+				"Text31": {
+					"type": "text",
+					"top": 45,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "Name : "
+				},
+				"Text32": {
+					"type": "text",
+					"top": 70,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "ShortName : "
+				},
+				"Text33": {
+					"type": "text",
+					"top": 504,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "TimeZone : "
+				},
+				"Text34": {
+					"type": "text",
+					"top": 529,
+					"left": 115,
+					"width": 113,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 12,
+					"text": "TLD : "
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"Text18",
+					"Line19"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"(Default Forms)": {},
+	"(Default Project Methods)": {},
+	"(Default Tables)": {},
+	"FORMS": {
+		"tables": [
+			"Countries"
+		],
+		"forms": [
+			"[Countries]Output",
+			"HDI",
+			"HDI2"
+		]
+	},
+	"METHODS": {
+		"methods": [
+			"00_Start",
+			"CreateCountries",
+			"FindCountries",
+			"m_Quit"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Default Forms)",
+			"(Default Project Methods)",
+			"(Default Tables)"
+		]
+	}
+}
